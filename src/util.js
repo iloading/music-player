@@ -39,7 +39,7 @@ function musicAPI() {
     {
       name: "Nights",
       cover:
-        "https://www.elquintobeatle.com/wp-content/uploads/2016/08/frank-ocean-blonde-1.jpg",
+        "https://assets.teenvogue.com/photos/57d314fc6e37b7ac60cf41b3/1:1/w_462,h_462,c_limit/ccc0894094b9a3cbb47a45ec0c69b1f0.1000x1000x1.jpg",
       artist: "Frank Ocean",
       audio: soundfile4,
       color: ["#d58b67", "#4b6d46"],
