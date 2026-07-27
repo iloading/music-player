@@ -9,7 +9,7 @@ function musicAPI() {
     {
       name: "man i is",
       cover:
-        "https://shifter.sapo.pt/wp-content/uploads/2020/08/100000x100000-999-scaled.jpg",
+        "https://i1.sndcdn.com/artworks-ckwCGzN5ASi7-0-t500x500.jpg,
       artist: "Logic",
       audio: soundfile1,
       color: ["#ee6110", "#202521"],
