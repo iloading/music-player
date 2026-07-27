@@ -51,6 +51,7 @@ function App() {
 
     //check if song is playing
     if (isPlaying) audioRef.current.play();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSong]);
 
   const songEndHandler = async () => {

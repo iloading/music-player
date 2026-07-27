@@ -14,13 +14,18 @@
     "react-audio-player": "^0.14.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
-    "sass": "^1.29.0",
+    "sass": "1.32.13",
     "uuid": "^8.3.1",
     "web-vitals": "^0.2.4"
   },
+  "overrides": {
+    "postcss-safe-parser": {
+      "postcss": "8.4.31"
+    }
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

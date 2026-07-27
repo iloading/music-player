@@ -8,7 +8,7 @@ function Navbar({ libraryStatus, setLibraryStatus }) {
       <h3>iLoading's Music Player</h3>
       <button onClick={() => setLibraryStatus(!libraryStatus)}>
         Library
-        <FontAwesomeIcon icon={faMusic} />
+        <FontAwesomeIcon icon={faMusic} style={{ marginLeft: "0.5rem" }} />
       </button>
     </nav>
   );
